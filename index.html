@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bekrow Development | Commercial Tenant Improvement Contractor, Metro Vancouver</title>
+<meta name="description" content="Bekrow Development Ltd. is a Metro Vancouver general contractor for commercial tenant improvements: offices, bank branches, clinics and retail. WorkSafeBC registered and fully insured.">
+<link rel="canonical" href="https://bekrow.ca/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bekrow Development | Commercial Interiors, Metro Vancouver">
+<meta property="og:description" content="Tenant improvements for offices, bank branches, clinics and retail across Metro Vancouver and the Fraser Valley.">
+<meta property="og:url" content="https://bekrow.ca/">
+<meta property="og:image" content="https://bekrow.ca/images/hero.jpg">
+<meta name="theme-color" content="#0B1F3A">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "name": "Bekrow Development Ltd.",
+  "url": "https://bekrow.ca/",
+  "email": "bayram@bekrow.ca",
+  "telephone": "+1-587-969-5701",
+  "image": "https://bekrow.ca/images/hero.jpg",
+  "description": "Commercial tenant improvement and renovation general contractor serving Metro Vancouver and the Fraser Valley.",
+  "areaServed": ["Vancouver","Burnaby","Richmond","Surrey","Coquitlam","North Vancouver","New Westminster","Delta","Langley","White Rock","Port Coquitlam","Abbotsford"],
+  "address": {"@type": "PostalAddress", "addressRegion": "BC", "addressCountry": "CA"}
+}
+</script>
+<style>
+:root{--navy:#0B1F3A;--navy-2:#13305A;--deep:#071528;--amber:#E8A33D;--amber-2:#F2B755;--ink:#1A2433;--slate:#4A5568;--muted:#C9D3E0;--light:#F3F5F8;--line:#E2E6EC}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:#fff;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:Archivo,Inter,sans-serif;margin:0;line-height:1.08;color:var(--navy)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.eyebrow{font-family:Archivo,sans-serif;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 14px}
+.h2{font-size:clamp(30px,4vw,44px);font-weight:800;letter-spacing:-.6px}
+.lead{font-size:18px;color:var(--slate);max-width:620px}
+section{padding:96px 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:Archivo,sans-serif;font-weight:700;font-size:15px;letter-spacing:.04em;padding:16px 28px;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:background .15s,border-color .15s}
+.btn-amber{background:var(--amber);color:var(--navy)}.btn-amber:hover{background:var(--amber-2)}
+.btn-ghost{border-color:rgba(255,255,255,.45);color:#fff}.btn-ghost:hover{background:rgba(255,255,255,.08)}
+
+/* top bar + header */
+.topbar{background:var(--deep);color:var(--muted);font-size:13px}
+.topbar .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;padding-top:9px;padding-bottom:9px}
+.topbar a{color:#fff;text-decoration:none;font-weight:600}
+.topbar span+span::before{content:"·";margin:0 10px;color:var(--amber)}
+header.site{position:sticky;top:0;z-index:50;background:var(--navy);border-bottom:1px solid rgba(255,255,255,.08)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{text-decoration:none;color:#fff;line-height:1}
+.logo b{display:block;font-family:Archivo,sans-serif;font-weight:800;font-size:28px;letter-spacing:.18em}
+.logo small{display:block;font-size:11px;letter-spacing:.34em;font-weight:600;margin-top:4px;color:var(--muted)}
+.hdr-actions{display:flex;align-items:center;gap:14px}
+.hdr-actions .btn{padding:12px 20px;font-size:14px}
+.burger{width:46px;height:46px;border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
+.menu{position:fixed;inset:0 auto 0 0;width:min(380px,88vw);background:var(--navy);z-index:60;transform:translateX(-100%);transition:transform .25s ease;padding:28px 32px;display:flex;flex-direction:column;box-shadow:20px 0 60px rgba(0,0,0,.3)}
+.menu.open{transform:none}
+.menu-close{align-self:flex-start;background:none;border:0;color:#fff;cursor:pointer;padding:6px;margin-bottom:28px}
+.menu a.item{color:#fff;text-decoration:none;font-family:Archivo,sans-serif;font-weight:700;font-size:24px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.menu a.item:hover{color:var(--amber)}
+.menu .btn{margin-top:28px}
+.scrim{position:fixed;inset:0;background:rgba(7,21,40,.5);z-index:55;opacity:0;pointer-events:none;transition:opacity .25s}
+.scrim.open{opacity:1;pointer-events:auto}
+
+/* hero */
+.hero{background:var(--navy);color:#fff;padding:80px 0 88px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:56px;align-items:center}
+.hero h1{color:#fff;font-size:clamp(44px,6.4vw,76px);font-weight:800;letter-spacing:-1.5px}
+.hero h1 span{color:var(--amber)}
+.hero p.lead{color:#D5DDE8;margin:24px 0 36px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:14px}
+.stats{display:flex;flex-wrap:wrap;gap:16px 44px;margin-top:52px;padding-top:28px;border-top:1px solid rgba(255,255,255,.12)}
+.stats b{display:block;font-family:Archivo,sans-serif;font-size:30px;line-height:1.1}
+.stats span{font-size:14px;color:var(--muted)}
+.hero-img{position:relative}
+.hero-img img{width:100%;background:#13305A;aspect-ratio:4/5;object-fit:cover}
+.hero-badge{position:absolute;left:-28px;bottom:36px;background:var(--amber);color:var(--navy);padding:18px 22px;max-width:280px;font-weight:600;font-size:14px;line-height:1.45}
+.hero-badge b{display:block;font-family:Archivo,sans-serif;letter-spacing:.06em;font-size:13px}
+
+/* client strip */
+.strip{background:var(--light);padding:28px 0;border-bottom:1px solid var(--line)}
+.strip .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 32px}
+.strip p{margin:0;font-family:Archivo,sans-serif;font-weight:700;font-size:12px;letter-spacing:.12em;color:var(--slate)}
+.strip ul{display:flex;flex-wrap:wrap;gap:10px 40px;list-style:none;margin:0;padding:0;font-family:Archivo,sans-serif;font-weight:800;font-size:20px;color:var(--navy)}
+
+/* services */
+.sec-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 56px;align-items:end;margin-bottom:48px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:1px solid var(--line);padding:36px;background:#fff;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(11,31,58,.1)}
+.card .ico{width:52px;height:52px;background:var(--amber);display:flex;align-items:center;justify-content:center;margin-bottom:24px;color:var(--navy)}
+.card h3{font-size:22px;font-weight:700;margin-bottom:12px}
+.card p{margin:0;color:var(--slate)}
+.card.feature{grid-column:span 2;background:var(--navy);border-color:var(--navy);color:#D5DDE8}
+.card.feature h3{color:#fff;font-size:30px}
+.card.feature p{color:#D5DDE8;font-size:17px}
+.tags{margin-top:28px;font-family:Archivo,sans-serif;font-weight:700;font-size:13px;letter-spacing:.08em;color:var(--amber)}
+
+/* sectors */
+.sectors-bg{background:var(--light)}
+.sectors{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.sector{background:#fff;border:1px solid var(--line);padding:30px}
+.sector i{font-style:normal;font-family:Archivo,sans-serif;font-weight:700;color:var(--amber);font-size:14px}
+.sector h3{font-size:20px;font-weight:700;margin:10px 0 8px}
+.sector p{margin:0;color:var(--slate);font-size:15px}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:center}
+.about-img{position:relative}
+.about-img img{width:100%;background:var(--light);aspect-ratio:1/1;object-fit:cover}
+.quote{position:absolute;right:-24px;bottom:-24px;background:var(--navy);color:#fff;padding:24px 28px;max-width:300px}
+.quote p{margin:0 0 10px;font-family:Archivo,sans-serif;font-weight:700;font-size:19px;line-height:1.3}
+.quote span{font-family:Archivo,sans-serif;font-weight:700;font-size:12px;letter-spacing:.1em;color:var(--amber)}
+.checks{list-style:none;padding:0;margin:28px 0 0}
+.checks li{display:grid;grid-template-columns:30px 1fr;gap:14px;margin-bottom:20px}
+.checks .tick{width:28px;height:28px;background:var(--amber);color:var(--navy);display:flex;align-items:center;justify-content:center;font-weight:800}
+.checks b{display:block;font-family:Archivo,sans-serif;color:var(--navy);font-size:17px}
+.checks span{color:var(--slate);font-size:15px}
+.about-more{margin-top:56px;padding-top:36px;border-top:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:24px 56px}
+.about-more h3{font-size:24px}
+.about-more p{margin:0 0 12px;color:var(--slate)}
+.creds{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:16px}
+.creds span{background:var(--light);border:1px solid var(--line);padding:6px 12px;font-size:13px;font-weight:600;color:var(--navy)}
+
+/* process */
+.process{background:var(--navy);color:#fff}
+.process h2{color:#fff}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:48px}
+.step{border-top:4px solid var(--amber);padding-top:22px}
+.step i{font-style:normal;font-family:Archivo,sans-serif;font-weight:800;font-size:40px;color:var(--amber)}
+.step h3{color:#fff;font-size:20px;margin:8px 0 10px}
+.step p{margin:0;color:var(--muted);font-size:15px}
+
+/* area */
+.cities{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px;padding:0;list-style:none}
+.cities li{border:1px solid var(--line);padding:8px 16px;font-weight:600;color:var(--navy);font-size:15px}
+
+/* contact */
+.contact{background:var(--navy);color:#fff}
+.contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:64px}
+.contact h2{color:#fff}
+.contact .lead{color:#D5DDE8;margin:20px 0 32px}
+.contact-lines a{display:block;color:#fff;text-decoration:none;font-family:Archivo,sans-serif;font-weight:700;font-size:22px;margin-bottom:12px}
+.contact-lines a:hover{color:var(--amber)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+form .full{grid-column:1/-1}
+label{display:block;font-size:13px;font-weight:600;color:var(--muted);margin-bottom:6px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;color:#fff;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.22);padding:13px 14px;border-radius:0}
+select option{color:var(--ink)}
+textarea{min-height:130px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--amber);outline-offset:1px}
+.form-note{font-size:14px;color:var(--muted);margin:0}
+.form-status{font-weight:600}
+.hp{position:absolute;left:-5000px}
+
+footer{background:var(--deep);color:var(--muted);font-size:14px;padding:28px 0}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+
+@media (max-width:900px){
+  section{padding:68px 0}
+  .hero{padding:56px 0 64px}
+  .hero-grid,.about-grid,.contact-grid,.sec-head,.about-more{grid-template-columns:minmax(0,1fr)}
+  .hero-grid{gap:40px}
+  .hero-badge{left:12px;bottom:12px}
+  .services,.sectors{grid-template-columns:minmax(0,1fr)}
+  .services .card{grid-column:auto!important}
+  .card.feature{grid-column:auto}
+  .steps{grid-template-columns:1fr 1fr}
+  .quote{right:12px;bottom:-20px;max-width:260px}
+  .about-grid{gap:56px}
+  .hdr-actions .btn{display:none}
+  .topbar .hide-sm{display:none}
+}
+@media (max-width:560px){
+  .steps{grid-template-columns:1fr}
+  form{grid-template-columns:1fr}
+  .stats{gap:16px 28px}
+  .logo b{font-size:24px}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <div><span>Serving Metro Vancouver &amp; the Fraser Valley</span><span class="hide-sm">WorkSafeBC registered</span><span class="hide-sm">Fully insured</span></div>
+  <div><a href="tel:+15879695701">587-969-5701</a><span class="hide-sm" style="margin-left:18px"><a href="mailto:bayram@bekrow.ca" style="font-weight:500;color:var(--muted)">bayram@bekrow.ca</a></span></div>
+</div></div>
+
+<header class="site"><div class="wrap">
+  <a class="logo" href="#top" aria-label="Bekrow Development, home"><b>BEKROW</b><small>DEVELOPMENT LTD</small></a>
+  <div class="hdr-actions">
+    <a class="btn btn-amber" href="#contact">Request a quote</a>
+    <button class="burger" type="button" aria-label="Open menu" aria-controls="menu" aria-expanded="false">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</div></header>
+
+<div class="scrim" data-close></div>
+<nav class="menu" id="menu" aria-label="Main" aria-hidden="true">
+  <button class="menu-close" type="button" aria-label="Close menu" data-close>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <a class="item" href="#services" data-close>Services</a>
+  <a class="item" href="#about" data-close>About Us</a>
+  <a class="item" href="#contact" data-close>Contact Us</a>
+  <a class="btn btn-amber" href="#contact" data-close>Request a quote</a>
+</nav>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Commercial general contractor · Metro Vancouver</p>
+      <h1><span>Commercial Interiors</span></h1>
+      <p class="lead">Tenant improvements for offices, bank branches, clinics and retail across Metro Vancouver and the Fraser Valley. Delivered by a team with years of occupied-space experience for Canada's largest banks and healthcare operators.</p>
+      <div class="ctas">
+        <a class="btn btn-amber" href="#contact">Request a quote</a>
+        <a class="btn btn-ghost" href="#services">Our services</a>
+      </div>
+      <div class="stats">
+        <div><b>10+ yrs</b><span>on complex commercial sites</span></div>
+        <div><b>After-hours</b><span>phased work, doors stay open</span></div>
+        <div><b>1 contact</b><span>permit to closeout</span></div>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="images/hero.jpg" alt="Completed bank branch interior with glass meeting rooms and wood feature wall" width="800" height="1000" fetchpriority="high">
+      <div class="hero-badge"><b>PROJECT EXPERIENCE</b>Bank branches · Healthcare · Office · Heritage</div>
+    </div>
+  </div>
+</section>
+
+<div class="strip"><div class="wrap">
+  <p>OUR TEAM'S PROJECT EXPERIENCE INCLUDES</p>
+  <ul><li>BMO</li><li>RBC</li><li>CIBC</li><li>Healthcare facilities</li></ul>
+</div></div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">What we do</p><h2 class="h2">Commercial first. Done properly, start to finish.</h2></div>
+      <p class="lead">Tenant improvements are our core. We also take on general contracting, project management and select residential renovations.</p>
+    </div>
+    <div class="services">
+      <div class="card feature">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg></div>
+        <h3>Commercial Tenant Improvements</h3>
+        <p>Office, retail, bank branch, healthcare and hospitality fit-outs. Demolition, framing, drywall and ceilings, mechanical and electrical coordination, millwork and finishes, built to landlord requirements and hard opening dates.</p>
+        <div class="tags">OCCUPIED SPACES · AFTER-HOURS · LANDLORD WORK LETTERS</div>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></div>
+        <h3>General Contracting</h3>
+        <p>Full-scope GC for commercial and institutional projects. We self-perform where it counts and coordinate trusted subtrades for the rest.</p>
+      </div>
+      <div class="card">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="17" rx="1"/><path d="M9 2h6v4H9zM8 11h8M8 15h5"/></svg></div>
+        <h3>Project Management</h3>
+        <p>Owner's representative or construction manager: trades, schedule, budget and your interests protected on site.</p>
+      </div>
+      <div class="card" style="grid-column:span 2">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7M5 10v10h14V10"/></svg></div>
+        <h3>Residential Renovation</h3>
+        <p>Kitchens, bathrooms and whole-home renovations, run to a commercial standard of scheduling and finish.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sectors-bg" id="sectors">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">Sectors</p><h2 class="h2">Built for spaces that can't afford mistakes</h2></div>
+    </div>
+    <div class="sectors">
+      <div class="sector"><i>01</i><h3>Financial institutions</h3><p>Branch renovations with security, vault and after-hours constraints.</p></div>
+      <div class="sector"><i>02</i><h3>Healthcare &amp; clinics</h3><p>Medical, dental and wellness fit-outs around infection control and inspections.</p></div>
+      <div class="sector"><i>03</i><h3>Office</h3><p>Open plan, private offices and meeting rooms, delivered to a move-in date.</p></div>
+      <div class="sector"><i>04</i><h3>Retail &amp; hospitality</h3><p>Branded build-outs for franchises and storefronts with fixed opening days.</p></div>
+      <div class="sector"><i>05</i><h3>Institutional &amp; heritage</h3><p>Public-sector documentation standards and careful work on older buildings.</p></div>
+      <div class="sector"><i>06</i><h3>Residential</h3><p>Select high-end renovations for homeowners who want it run properly.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img">
+        <img src="images/about.jpg" alt="Commercial interior under construction with steel stud framing and ceiling grid" width="900" height="900" loading="lazy">
+        <div class="quote"><p>“The extra care it takes to get something right is ours to give.”</p><span>THE BEKROW TEAM</span></div>
+      </div>
+      <div>
+        <p class="eyebrow">About Bekrow</p>
+        <h2 class="h2">Why Bekrow for your build?</h2>
+        <p class="lead" style="margin-top:20px">Our team has delivered bank branch renovations and healthcare projects across Canada where downtime wasn't an option, backed by formal training in construction management and project management. We bring that standard to every job, big or small.</p>
+        <ul class="checks">
+          <li><span class="tick">✓</span><div><b>Led by experienced project managers</b><span>The people who scope and price your job are the people running it.</span></div></li>
+          <li><span class="tick">✓</span><div><b>Built for occupied spaces</b><span>Phasing, after-hours work, dust and noise control.</span></div></li>
+          <li><span class="tick">✓</span><div><b>One point of accountability</b><span>Permits, trades, inspections, deficiencies and closeout.</span></div></li>
+        </ul>
+      </div>
+    </div>
+    <div class="about-more">
+      <h3>Bekrow Development Ltd.</h3>
+      <div>
+        <p>Bekrow is a Metro Vancouver general contractor focused on commercial tenant improvements, with select residential renovation work.</p>
+        <p>Every contractor says they care about quality. The real question is what happens when caring costs something: time, money, a difficult conversation with a subtrade. We don't cut corners to protect a margin, and we don't go quiet when problems come up.</p>
+        <div class="creds"><span>WorkSafeBC registered</span><span>Fully insured (CGL)</span><span>Metro Vancouver &amp; Fraser Valley</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="wrap">
+    <p class="eyebrow">How we work</p>
+    <h2 class="h2">Clear scope. Fixed schedule. No surprises.</h2>
+    <div class="steps">
+      <div class="step"><i>01</i><h3>Site walk &amp; scope</h3><p>We review drawings, the landlord work letter and site conditions with you.</p></div>
+      <div class="step"><i>02</i><h3>Pricing &amp; schedule</h3><p>An itemized quote and a realistic schedule built around your opening date.</p></div>
+      <div class="step"><i>03</i><h3>Build</h3><p>Permits, trades and inspections managed on site, with weekly updates.</p></div>
+      <div class="step"><i>04</i><h3>Closeout</h3><p>Deficiencies cleared, documents handed over, keys in your hand.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="area">
+  <div class="wrap">
+    <p class="eyebrow">Service area</p>
+    <h2 class="h2">Metro Vancouver &amp; the Fraser Valley</h2>
+    <p class="lead" style="margin-top:16px">Commercial tenant improvement and renovation projects across the Lower Mainland. Larger commercial work considered across BC.</p>
+    <ul class="cities">
+      <li>Vancouver</li><li>Burnaby</li><li>Richmond</li><li>Surrey</li><li>Coquitlam</li><li>North Vancouver</li><li>New Westminster</li><li>Delta</li><li>Langley</li><li>White Rock</li><li>Port Coquitlam</li><li>Abbotsford</li>
+    </ul>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2 class="h2">Planning a fit-out or renovation?</h2>
+      <p class="lead">Tell us about the space, timeline and budget. You'll hear back from our project team within one business day.</p>
+      <div class="contact-lines">
+        <a href="mailto:bayram@bekrow.ca">bayram@bekrow.ca</a>
+        <a href="tel:+15879695701">587-969-5701</a>
+      </div>
+    </div>
+    <form id="quote-form" novalidate>
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div><label for="f-name">Name *</label><input id="f-name" name="name" autocomplete="name" required></div>
+      <div><label for="f-company">Company</label><input id="f-company" name="company" autocomplete="organization"></div>
+      <div><label for="f-email">Email *</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+      <div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+      <div><label for="f-type">Project type</label>
+        <select id="f-type" name="project_type">
+          <option>Commercial tenant improvement</option><option>General contracting</option><option>Project management</option><option>Residential renovation</option><option>Other</option>
+        </select></div>
+      <div><label for="f-loc">Project location</label><input id="f-loc" name="location" placeholder="City or address"></div>
+      <div class="full"><label for="f-msg">Tell us about the project *</label><textarea id="f-msg" name="message" required placeholder="Size of the space, timeline, budget range, drawings available…"></textarea></div>
+      <div class="full"><button class="btn btn-amber" type="submit" style="width:100%">Send request</button></div>
+      <p class="form-note full form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+  <span>© <span id="yr">2026</span> Bekrow Development Ltd.</span>
+  <span>WorkSafeBC registered · Fully insured · Metro Vancouver &amp; Fraser Valley</span>
+</div></footer>
+
+<script>
+// Web3Forms access key. Leave empty to fall back to opening the visitor's email app.
+const FORM_KEY = "";
+
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+// Menu
+const menu = document.getElementById('menu'), scrim = document.querySelector('.scrim'), burger = document.querySelector('.burger');
+function setMenu(open){
+  menu.classList.toggle('open', open); scrim.classList.toggle('open', open);
+  menu.setAttribute('aria-hidden', String(!open)); burger.setAttribute('aria-expanded', String(open));
+  if (open) menu.querySelector('a').focus();
+}
+burger.addEventListener('click', () => setMenu(true));
+document.querySelectorAll('[data-close]').forEach(el => el.addEventListener('click', () => setMenu(false)));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+
+// Quote form
+const form = document.getElementById('quote-form'), status = form.querySelector('.form-status');
+form.addEventListener('submit', async e => {
+  e.preventDefault();
+  if (!form.reportValidity()) return;
+  const data = Object.fromEntries(new FormData(form));
+  if (data.botcheck) return;
+  if (!FORM_KEY) {
+    const body = `Name: ${data.name}\nCompany: ${data.company}\nEmail: ${data.email}\nPhone: ${data.phone}\nProject type: ${data.project_type}\nLocation: ${data.location}\n\n${data.message}`;
+    location.href = 'mailto:bayram@bekrow.ca?subject=' + encodeURIComponent('Quote request: ' + data.project_type) + '&body=' + encodeURIComponent(body);
+    status.textContent = 'Your email app should open with the details filled in. If it does not, email bayram@bekrow.ca directly.';
+    return;
+  }
+  status.textContent = 'Sending…';
+  try {
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST', headers: {'Content-Type': 'application/json', Accept: 'application/json'},
+      body: JSON.stringify({...data, access_key: FORM_KEY, subject: 'New quote request from bekrow.ca', from_name: 'bekrow.ca'})
+    });
+    const json = await res.json();
+    if (json.success) { form.reset(); status.textContent = "Thanks. We've got your request and will be in touch within one business day."; }
+    else throw new Error(json.message);
+  } catch (err) {
+    status.textContent = 'Something went wrong sending the form. Please email bayram@bekrow.ca or call 587-969-5701.';
+  }
+});
+</script>
+</body>
+</html>
