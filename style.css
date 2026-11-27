@@ -2,7 +2,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:84px}
 body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:#fff;line-height:1.6;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:inherit}
 h1,h2,h3{font-family:Archivo,Inter,sans-serif;margin:0;line-height:1.08;color:var(--navy)}
 .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
@@ -143,3 +143,11 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
   .stats{gap:16px 28px}
   .logo b{font-size:24px}
 }
+
+/* project gallery */
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:40px;padding:0;list-style:none}
+.gallery.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.gallery figure{margin:0}
+.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--line)}
+.gallery figcaption{font-size:14px;font-weight:600;color:var(--navy);margin-top:8px}
+@media (max-width:900px){.gallery,.gallery.three{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
